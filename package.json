@@ -2,6 +2,9 @@
   "name": "node-js-getting-started",
   "version": "0.0.1",
   "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
   "description": "A sample Node.js app using Express 4",
   "dependencies": {
     "express": "^4.15.2"
