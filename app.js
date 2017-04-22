@@ -7,9 +7,10 @@ var app = express();
 app.get('/', function(req, res) {	
    res.send('Hello World @\n' + req.connection.remoteAddress);
 });
+var port = process.env.PORT || 8080)
 
-app.listen(3000);
-console.log('Server listening at 127.0.0.1:3000');
+app.listen(port);
+console.log('Server listening at port: ' + port);
 
 /*
 app.use("/css",  express.static(__dirname + '/css'));
